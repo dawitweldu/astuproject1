@@ -1,0 +1,228 @@
+body{
+    background-color: #f1f1f1;
+}
+.flex-container{
+display: flex;
+height: 75px;
+width: 100%;
+background-color: white;
+position: fixed;
+}
+.flex1{
+    text-align: end;
+   width: 100px;
+   margin-top: 10px;
+}
+.flex2 h5{
+    text-align: start;
+   width: 200px;
+   font-family: Arial, Helvetica;
+   margin-top: 20px;
+   font-size: 25px;
+   font-weight: 100px;
+   color: red;
+   
+}
+.flex2 p{
+    margin-top: -68px;
+    font-size: 7px;
+    margin-left: -38px;
+   
+}
+.flex3{
+    text-align: end;
+    width: 100%;
+   
+   
+}
+.flex3 ul{
+    display: inline-flex;
+    list-style: none;
+ margin: 0px;
+   
+ 
+  
+    
+}
+.flex3 ul li a{
+    
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 27px 26px;
+        text-decoration: none;
+        cursor: pointer;
+    
+       
+}
+.flex3 ul li a:hover{
+background-color: blueviolet;
+transition: 0.4s;
+color: white;
+}
+.flex3 ul a img{
+    padding-left: 15px;
+    margin-top: 30px;
+    opacity: 0.6;
+    margin-right: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.flex3 ul a img:hover{
+  opacity: 1;
+   
+}
+h3{
+    color: red;
+    padding-left: 50px;
+    margin-top: 35px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+.par{
+    margin-right: 50px;
+}
+
+.img-multi{
+   
+  margin-top: -310px;
+  margin-left: 40px;
+
+}
+.img-multi img{
+    padding-left: 40px;
+    opacity: 1;
+}
+.img-multi img:hover{
+    opacity: 0.7;
+    scale: 1;
+   cursor: pointer;
+}
+
+
+.headings{
+    display: flex;
+color: white;
+
+}
+.headings h6{
+    padding-left: 90px;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.headings h5{
+    padding-left: 270px;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.headings h4{
+    padding-left: 43px;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.partners h2{
+    margin-bottom: 0px;
+    color: red;
+    padding-left: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-partners{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.our-partners img{
+    box-shadow: 1px 0.8px 1px 1px black;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+footer h2{
+    margin-bottom: 0px;
+    padding-left: 45px;
+    color: red;
+}
+footer p{
+line-height: 30px;
+margin-top: 0px;
+color: rgb(185, 181, 181);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(39, 39, 39);
+}
+footer p span a{
+color: rgb(89, 145, 248);
+text-decoration: none;
+}
+.img-footer h5{
+    display: inline-block;
+   
+    color: red;
+    margin-left: 50px;
+    
+}
+.drop{
+    height: 75px;
+    background-color: white;
+    width: 100%;
+    text-align: end;
+
+}
+.drop ul{
+display: inline-flex;
+list-style: none;
+margin-top: 0px;
+
+
+}
+.drop ul li{
+  
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+.drop ul li a{
+    text-align: center;
+   
+
+}
+.drop ul a img{
+    padding-right: 10px;
+    margin-top: 28px;
+    margin-right: 10px;
+
+}
+.drop ul li:hover{
+    background-color: rgb(209, 206, 206);
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    
+}
+.drop ul  a img{
+    opacity: 0.5;
+}
+.drop ul  a img:hover{
+   opacity: 1;
+   border-radius: 5px;
+   cursor: pointer;
+   
+    
+}
+.drop img{
+  margin-right: 500px;
+  margin-top: 5px;
+}
